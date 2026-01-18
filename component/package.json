@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "dev": "bun component.html"
+    "dev": "bun index.html"
   }
 }

@@ -3,43 +3,43 @@ const gameData = [
     title: "크로노 오디세이",
     desc: "멈춰 있던 시간이 흐른다",
     type: "MMORPG",
-    img: "/public/img/ct.png", // 앞의 캐릭터
-    bg: "/public/img/bg.png", // ★ CSS에 있던 배경 경로를 여기로 이동!
+    img: "./img/ct.png", // 앞의 캐릭터
+    bg: "./img/bg.png", // ★ CSS에 있던 배경 경로를 여기로 이동!
   },
   {
     title: "아키에이지 워",
     desc: "시대의 전설을 향해",
     type: "MMORPG",
-    img: "/public/img/ct1.png",
-    bg: "/public/img/bg1.png", // ★ 아키에이지 배경 경로도 여기로!
+    img: "./img/ct1.png",
+    bg: "./img/bg1.png", // ★ 아키에이지 배경 경로도 여기로!
   },
   {
     title: "패스 오브 엑자일 2",
     desc: "얼리 액세스 오픈!",
     type: "핵앤슬래시",
-    img: "/public/img/ct2.png",
-    bg: "/public/img/bg2.png", // ★ 아키에이지 배경 경로도 여기로!
+    img: "./img/ct2.png",
+    bg: "./img/bg2.png", // ★ 아키에이지 배경 경로도 여기로!
   },
   {
     title: "오딘: 발할라 라이징",
     desc: "신의 영역을 차지하라",
     type: "MMORPG",
-    img: "/public/img/ct3.png",
-    bg: "/public/img/bg3.png", // ★ 아키에이지 배경 경로도 여기로!
+    img: "./img/ct3.png",
+    bg: "./img/bg3.png", // ★ 아키에이지 배경 경로도 여기로!
   },
   {
     title: "롬: 리멤버 오브 마제스티",
     desc: "세계는 하나의 전장이 된다.",
     type: "MMORPG",
-    img: "/public/img/ct4.png",
-    bg: "/public/img/bg4.png", // ★ 아키에이지 배경 경로도 여기로!
+    img: "./img/ct4.png",
+    bg: "./img/bg4.png", // ★ 아키에이지 배경 경로도 여기로!
   },
   {
     title: "배틀그라운드",
     desc: "최후까지 생존하라",
     type: "배틀로얄",
-    img: "/public/img/ct5.png",
-    bg: "/public/img/bg5.png", // ★ 아키에이지 배경 경로도 여기로!
+    img: "./img/ct5.png",
+    bg: "./img/bg5.png", // ★ 아키에이지 배경 경로도 여기로!
   },
 ];
 
