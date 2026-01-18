@@ -1,21 +1,6 @@
 /* 공통 */
 body {
   background-color: pink;
-
-  .type {
-    color: #0000007a;
-  }
-
-  p {
-    font-size: 14px;
-    margin: 0;
-  }
-
-  h3 {
-    margin: 0;
-    font-size: 18px;
-  }
-
   a {
     text-decoration: none;
     color: black;
@@ -95,33 +80,6 @@ section {
     gap: 8px;
     padding-inline: 24px;
     padding-top: 3px;
-
-    article {
-      width: 160px;
-      height: 240px;
-
-      a {
-        display: block;
-        width: 160px;
-        height: 160px;
-        background-image: url(./img/배경.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        overflow: hidden;
-        border-radius: 12px;
-        margin-bottom: 8px;
-      }
-      /* 질문 위쪽이 동그래지지않는 이유 */
-      p {
-        margin-bottom: 8px;
-      }
-    }
-
-    .gameBoxArcyage {
-      a {
-        background-image: url(./img/배경\ \(1\).png);
-      }
-    }
   }
 
   footer {
@@ -149,5 +107,42 @@ section {
     p {
       font-size: 18px;
     }
+  }
+}
+
+.game-item {
+  width: 160px;
+  height: 240px;
+
+  a {
+    display: block;
+    width: 160px;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+
+  img {
+    width: 160px;
+    height: 172px;
+    object-fit: cover;
+  }
+  /* 4. 텍스트 스타일 */
+  h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .type {
+    color: #0000007a;
   }
 }
