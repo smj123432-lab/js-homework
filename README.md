@@ -3,6 +3,7 @@
 ## 사민재 JavaScript 과제
 
 - [두 번째 과제](./md/second.md)
+- [세 번째 과제](./md/third.md)
 
 ### 과제 수행 과정
 

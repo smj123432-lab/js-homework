@@ -65,6 +65,7 @@ body {
 
   button {
     position: relative;
+    padding-block: 12px;
     svg {
       width: 25px;
       height: 25px;
@@ -278,6 +279,7 @@ body {
 
   h3 {
     line-height: 0;
+    font-weight: 700;
   }
 
   & p:nth-child(1) {
