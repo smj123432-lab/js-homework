@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>"가격 플랜 선택" 컴포넌드 만들기</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/components/_pricing-plan.css" />
+    <link rel="stylesheet" href="./styles/common/_a11y.css" />
+    <script src="./plan.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <h1 class="sr-only">이용하실 요금제를 선택해주세요</h1>
+      <section class="pricing-section" aria-labelledby="pricing-title">
+        <h2 id="pricing-title" class="sr-only">요금제 선택 서비스</h2>
+        <div class="pricing-container">
+          <article class="plan-card" data-plan="Basic" data-price="무료">
+            <h3 class="plan-name" lang="en">Basic</h3>
+            <p class="plan-price" aria-label="가격: 무료">Free</p>
+            <ul class="plan-features">
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                기본 대시보드 제공
+              </li>
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                월 10회 리포트
+              </li>
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                커뮤니티 지원
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="plan-selection-button"
+              aria-label="베이직 플랜 선택하기"
+              aria-pressed="false"
+            ></button>
+          </article>
+          <article class="plan-card" data-plan="Standard" data-price="15,000원">
+            <h3 class="plan-name" lang="en">Standard</h3>
+            <p class="plan-price" aria-label="가격: 15,000원">₩15,000</p>
+            <ul class="plan-features">
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                모든 기능 무제한
+              </li>
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                광고 제거
+              </li>
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                이메일 고객 지원
+              </li>
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                데이터 내보내기
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="plan-selection-button"
+              aria-label="스탠다드 플랜 선택하기"
+              aria-pressed="false"
+            ></button>
+          </article>
+          <article class="plan-card" data-plan="Premium" data-price="30,000원">
+            <h3 class="plan-name" lang="en">Premium</h3>
+            <p class="plan-price" aria-label="가격: 30,000원">₩30,000</p>
+            <ul class="plan-features">
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Standard 혜택 전체
+              </li>
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                전담 매니저 배정
+              </li>
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                API 액세스 권한
+              </li>
+              <li>
+                <svg
+                  width="8"
+                  height="9"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 0.500061L3 8.00006L0.5 5.00006"
+                    stroke="#407EEE"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                초기 설정 컨설팅
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="plan-selection-button"
+              aria-label="프리미엄 플랜 선택하기"
+              aria-pressed="false"
+            ></button>
+          </article>
+        </div>
+        <div class="selection-info" aria-live="polite">
+          <strong class="highlight" data-id="plan-name"></strong
+          >&nbsp;플랜(<span data-id="plan-price"></span>)을 선택하셨습니다.
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
